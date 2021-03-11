@@ -1,0 +1,186 @@
+* {
+  max-width: 1500px;
+  margin: auto;
+}
+title{
+  font-color:red;
+
+}
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 30%;
+
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 2700px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 90%;
+  height: 1000px;
+}
+h1{
+
+  text-align: center;
+  font-size: 100px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMlUucszrAc4A0U_aOJVhzzyoZJIazYFSow&usqp=CAU');
+  border-image-width: 1000px;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px #FF0000;
+} 
+p,
+li {
+  font-family: 'Cormorant Garamond';
+  font-family: bolder;
+
+}
+p{
+  
+  font-style: bolder;
+  background-color: powderblue;
+  height: 50px;
+  text-transform: uppercase;
+  font-style: bolder;
+  text-shadow: 2px 2px #33ff69;
+
+  
+}
+table{
+  border-collapse: collapse;
+  width: 90%;
+  height: 50%;
+  text-align: center;
+  background-color: #fff9e5;
+}
+.head {
+  font-size: 20px;
+}
+.eq{
+  background-origin: left;
+  background-size: auto;
+  font-size: 150%;
+  
+  background-repeat: no-repeat;
+  height: 30%;
+  table-layout: 
+  font-size: 25px; 
+}
+.my{
+  font-size: 30px;
+  font-family:  "Times New Roman", Times, serif;
+  font-style: bolder;
+  text-align: right;
+
+}
+.res{
+  text-align: right;
+  font-size: 20px;
+}
+.pl{
+  height: 30%;
+  font-size: 25px; 
+  font-style: normal; 
+
+}
+.pi{
+  height: 30%;
+  font-size: 25px; 
+  background-position:  500px 500px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url('https://ebookfriendly.com/wp-content/uploads/2016/08/Digital-books-are-great-animated-gif.gif');
+}
+.pc{
+    height: 30%;
+  font-size: 25px;
+}
+.pp{
+  height: 30%;
+  font-size: 25px;
+  background-position:  right;
+  background-image: url('https://cdn.dribbble.com/users/2367833/screenshots/7816190/media/b1aaf5c98510012b56422d1619dc62e8.gif');
+}
+ul.aa{
+
+  list-style-type: none;
+}
+.ai{
+  height: 1000px;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+   background-image: url('https://64.media.tumblr.com/4bca2d9d1ebc7fcfbccb6264154c8adc/tumblr_mih7khY4m91r8o3vyo1_500.gif');
+  font-size: 25px;
+  background-blend-mode: auto;
+}
+.sk{
+  height: 30%;
+  font-size: 25px; 
+  font-color:white;
+  background-image: url('https://i.pinimg.com/originals/8d/62/1f/8d621f66f551b6a39072473d52280ff0.gif');
+
+}
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
